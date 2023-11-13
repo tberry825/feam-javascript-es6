@@ -7,11 +7,24 @@ if(weather === "rain") {
     console.log("Please wear rain boots")
 }
 
+//refactor below
+
+
+
+
+
+
+/*Exercise 2*/
 if(student == true && loggedIn == true) {
     console.log("This is where we would write the code to show the entire site")
 }
+//refactor below
 
-/*Exercise 2*/
+
+
+
+
+/*Exercise 3*/
 let cash = 18;
 let lunch = "";
 
@@ -29,4 +42,3 @@ if (cash < 10) {
 
 
 
-/*Exercise 2*/

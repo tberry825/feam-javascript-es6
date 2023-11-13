@@ -6,11 +6,7 @@ let arr = [1, 2, 3, 4, 5, 6, 7];
 //Exercise 2
 
 /*
-1. Create a new variable that stores a new array. 
-2. You should map over the current array, and call myFunction as the parameter to .map()
-3. Console.log the new array 
-
-*/
+Refactor this using map. log the new array to the console.*/
 
 const numbers = [65, 44, 12, 4];
 
