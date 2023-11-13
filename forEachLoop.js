@@ -8,6 +8,9 @@ for (let i = 0; i < numbers.length; i++) {
   console.log(numbers[i]);
 }
 
+// Answwer
+const numbers2 = [1, 2, 3, 4, 5];
+const allNumbers = numbers2.map((number) => console.log(number));
 
 
 //Exercise 2
@@ -18,6 +21,12 @@ for (let i = 0; i < scores.length; i++) {
 }
 
 console.log(scores);
+
+// Answwer
+const scores1 = [1, 2, 3, 4, 5];
+const allScores = scores1.map((score) => score + 5);
+console.log(allScores);
+
 
 //Exercise 3
 const words = ['apple', 'banana', 'orange', 'grape', 'kiwi'];
@@ -30,3 +39,10 @@ for (let i = 0; i < words.length; i++) {
 }
 
 console.log(filteredWords);
+
+// Answwer
+
+const words1 = ['apple', 'banana', 'orange', 'grape', 'kiwi'];
+const filteredWords1 = words1.map((word) => word.length > 5);
+
+console.log(filteredWords1);
